@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: django-google-oauth-simple
+Version: 0.0.1
+Summary: Handles OAuth and stores slack token
+Home-page: https://github.com/izdi/django-slack-oauth
+Download-URL: https://github.com/izdi/django-slack-oauth/tarball/1.5.0
+Author: Marcelo Gumercino Costa
+Author-email: marcelogc@gmail.com
+License: MIT License
+Requires-Dist: Django>=1.8
+Requires-Dist: social-auth-app-django
+
 ## Instructions
 
 1. Install using pip:
@@ -38,4 +50,4 @@
 Add a link to google OAuth in one of your templates:
 
 ```
-<a href='{% url 'social:begin' 'google-oauth2'  %}'>Get googleed</a>
+<a href='{% url 'google_oauth' %}'>Get googleed</a>
