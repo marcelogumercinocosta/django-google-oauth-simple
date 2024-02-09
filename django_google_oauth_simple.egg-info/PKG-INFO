@@ -50,4 +50,4 @@ Requires-Dist: social-auth-app-django
 Add a link to google OAuth in one of your templates:
 
 ```
-<a href='{% url 'google_oauth' %}'>Get googleed</a>
+<a href='{% url 'social:begin' 'google-oauth2'  %}'>Get googleed</a>
